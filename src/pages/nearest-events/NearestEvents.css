@@ -1,0 +1,97 @@
+.backLink {
+    border: none;
+    background: transparent;
+    color: #2f6bff;
+    font-weight: 900;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+  }
+  
+  .neHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .neTitle {
+    margin: 0;
+    font-size: 44px;
+    font-weight: 900;
+    color: #1f2a3a;
+  }
+  
+  .neAdd {
+    height: 52px;
+    padding: 0 18px;
+    border-radius: 16px;
+    border: none;
+    background: #2f6bff;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 14px 30px rgba(47, 107, 255, 0.22);
+  }
+  
+  .neGrid {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  
+  .neCard {
+    background: #fff;
+    border: 1px solid #eef2f7;
+    border-radius: 22px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .neLine { width: 4px; height: 54px; border-radius: 10px; }
+  .neLine.blue { background: #2f6bff; }
+  .neLine.pink { background: #c56cff; }
+  .neLine.yellow { background: #f6b632; }
+  .neLine.purple { background: #7a5cff; }
+  
+  .neIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    background: #f4f7fb;
+    display: grid;
+    place-items: center;
+    color: #2f6bff;
+    font-size: 18px;
+  }
+  
+  .neMain { flex: 1; }
+  .neCardTitle { font-weight: 900; color: #1f2a3a; }
+  .neTime { margin-top: 8px; color: #93a3ba; font-weight: 800; font-size: 13px; }
+  
+  .neRight { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+  .neArrow { width: 26px; height: 26px; border-radius: 10px; display: grid; place-items: center; }
+  .neArrow.up { color: #f6b632; }
+  .neArrow.down { color: #2bb673; }
+  
+  .neDur {
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 12px;
+    background: #eef4ff;
+    color: #6b7a90;
+    font-weight: 900;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  

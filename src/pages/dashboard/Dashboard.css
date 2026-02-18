@@ -1,0 +1,256 @@
+.dbTopText {
+    color: #93a3ba;
+    font-weight: 600;
+    margin-top: 6px;
+  }
+  
+  .dbTitleRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+  }
+  
+  .dbTitle {
+    margin: 0;
+    font-size: 44px;
+    letter-spacing: -0.6px;
+    color: #1f2a3a;
+  }
+  
+  .dbGrid {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 18px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #eef2f7;
+    border-radius: 22px;
+    padding: 18px;
+  }
+  
+  .cardHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .cardTitle {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1f2a3a;
+  }
+  
+  .linkBtn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #2f6bff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .workGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+  }
+  
+  .workCard {
+    background: #f7faff;
+    border-radius: 18px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .avatarRing {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    border: 2px solid #2f6bff;
+    display: grid;
+    place-items: center;
+  }
+  
+  .avatarImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .workName {
+    font-weight: 800;
+    color: #1f2a3a;
+    font-size: 14px;
+  }
+  
+  .workRole {
+    color: #8ea0b8;
+    font-weight: 600;
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  
+  .workPill {
+    margin: 10px auto 0;
+    display: inline-flex;
+    height: 22px;
+    padding: 0 10px;
+    border-radius: 999px;
+    background: #edf2ff;
+    color: #6b7a90;
+    font-weight: 700;
+    font-size: 12px;
+    align-items: center;
+  }
+  
+  .eventsList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .eventRow {
+    display: flex;
+    gap: 12px;
+    padding: 12px 12px;
+    border-radius: 18px;
+    background: #f7faff;
+  }
+  
+  .eventLine {
+    width: 4px;
+    border-radius: 10px;
+  }
+  
+  .eventLine.blue { background: #2f6bff; }
+  .eventLine.pink { background: #c56cff; }
+  .eventLine.yellow { background: #f6b632; }
+  .eventLine.purple { background: #7a5cff; }
+  
+  .eventMain { flex: 1; }
+  
+  .eventTitle {
+    font-weight: 800;
+    color: #1f2a3a;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+  
+  .eventTime {
+    margin-top: 8px;
+    color: #93a3ba;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  .eventMeta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .eventArrow {
+    width: 26px;
+    height: 26px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+  }
+  
+  .eventArrow.up { color: #f6b632; }
+  .eventArrow.down { color: #2bb673; }
+  
+  .eventDur {
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 12px;
+    background: #eef4ff;
+    color: #6b7a90;
+    font-weight: 800;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .projList { display: flex; flex-direction: column; gap: 14px; }
+  
+  .projRow {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 0.6fr;
+    gap: 14px;
+    padding: 14px;
+    border: 1px solid #eef2f7;
+    border-radius: 18px;
+  }
+  
+  .projId { color: #9aaac1; font-weight: 800; font-size: 12px; }
+  .projTitle { color: #1f2a3a; font-weight: 900; font-size: 16px; margin-top: 2px; }
+  .projCreated { color: #93a3ba; font-weight: 700; margin-top: 10px; font-size: 12px; }
+  
+  .projDataTitle { font-weight: 900; color: #1f2a3a; margin-bottom: 10px; }
+  .projStats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .stLabel { color: #93a3ba; font-weight: 800; font-size: 12px; }
+  .stVal { color: #1f2a3a; font-weight: 900; font-size: 18px; margin-top: 4px; }
+  
+  .assignees { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+  .assImg { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; border: 2px solid #fff; margin-left: -8px; }
+  .assImg:first-child { margin-left: 0; }
+  .assPlus { width: 30px; height: 26px; border-radius: 999px; background: #2f6bff; color: #fff; font-weight: 900; font-size: 12px; display: grid; place-items: center; margin-left: 4px; }
+  
+  .projPri {
+    height: 28px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 12px;
+    margin-top: 14px;
+    justify-self: end;
+    padding: 0 12px;
+  }
+  .projPri.medium { background: #fff4dd; color: #f6b632; }
+  .projPri.low { background: #e7fbf0; color: #2bb673; }
+  
+  .actList { display: flex; flex-direction: column; gap: 14px; }
+  .actRow { display: flex; gap: 12px; }
+  .actAvatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+  .actName { font-weight: 900; color: #1f2a3a; }
+  .actRole { color: #93a3ba; font-weight: 700; font-size: 12px; margin-top: 2px; }
+  .actBox {
+    margin-top: 10px;
+    border-radius: 16px;
+    background: #f7faff;
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .actIcon { width: 30px; height: 30px; border-radius: 12px; background: #eef4ff; display: grid; place-items: center; color: #2f6bff; }
+  .actText { color: #1f2a3a; font-weight: 800; font-size: 13px; line-height: 1.2; }
+  
+  .actMore {
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+    color: #2f6bff;
+    font-weight: 900;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+  }
+  

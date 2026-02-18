@@ -1,0 +1,87 @@
+.hd {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  height: 72px;
+  background: #f4f7fb;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hdSearchWrap {
+  width: 370px;
+  height: 46px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #eaf0f8;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  gap: 10px;
+}
+
+.hdSearchIcon {
+  color: #6f829a;
+  font-size: 18px;
+}
+
+.hdSearch {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #1f2a3a;
+  font-size: 18px;
+  background: transparent;
+}
+
+.hdSearch::placeholder {
+  color: #98a8bc;
+}
+
+.hdRight {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hdBell {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  border: 1px solid #eaf0f8;
+  background: #fff;
+  color: #60728a;
+  font-size: 18px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.hdUser {
+  border: 1px solid #eaf0f8;
+  background: #fff;
+  height: 46px;
+  border-radius: 12px;
+  padding: 0 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #1f2a3a;
+  font-size: 16px;
+}
+
+.hdAvatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hdChevron {
+  font-size: 16px;
+  color: #1f2a3a;
+}
