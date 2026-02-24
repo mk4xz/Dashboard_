@@ -1,0 +1,324 @@
+.tasks-title1 {
+    margin-left: 30px;
+    margin-top: 24px;
+    width: 855px;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #E6EDF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0A1629;
+    }
+}
+
+.task-active-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+    .task-active-1,
+    .task-active-2,
+    .task-active-3,
+    .task-active-4,
+    .task-active-5,
+    .task-active-6 {
+        width: 855px;
+        height: 91px;
+        border-radius: 24px;
+        background-color: #FFFFFF;
+        box-shadow: 0 6px 58px 0 #C4CBD61A;
+        display: flex;
+
+        .taskName-addon {
+            margin-left: 30px;
+            margin-top: 22px;
+            width: 175px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 4px;
+                color: #0A1629;
+            }
+        }
+
+        .taskEstimate-addon {
+            margin-left: 65px;
+            margin-top: 22px;
+            width: 55px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 4px;
+                color: #0A1629;
+            }
+        }
+
+        .taskSpentTime-addon {
+            margin-left: 45px;
+            margin-top: 22px;
+            width: 80px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 4px;
+                color: #0A1629;
+            }
+        }
+
+        .taskAssignee-addon {
+            margin-left: 45px;
+            margin-top: 22px;
+            width: 60px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            img {
+                width: 24px;
+                height: 24px;
+                margin-top: 4px;
+                border-radius: 50%;
+            }
+        }
+
+        .taskPriority-addon {
+            width: 80px;
+            margin-left: 35px;
+            margin-top: 22px;
+
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 14px;
+                font-weight: 700;
+                color: #FFBD21;
+                margin-top: 4px;
+            }
+        }
+
+        .task-active-btn-1 {
+            width: 59px;
+            height: 30px;
+            border-radius: 8px;
+            border: none;
+            background-color: #E0F9F2;
+            font-size: 12px;
+            font-weight: 700;
+            color: #00D097;
+            margin-top: 30px;
+            margin-left: 46px;
+            cursor: pointer;
+        }
+
+        .task-active-btn-2 {
+            width: 91px;
+            height: 30px;
+            border-radius: 8px;
+            border: none;
+            background-color: #3F8CFF1F;
+            font-size: 12px;
+            font-weight: 700;
+            color: #3F8CFF;
+            margin-top: 30px;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+
+        .task-active-btn-3 {
+            width: 61px;
+            height: 30px;
+            border-radius: 8px;
+            border: none;
+            background-color: #7D859224;
+            font-size: 12px;
+            font-weight: 700;
+            color: #7D8592;
+            margin-top: 30px;
+            margin-left: 55px;
+            cursor: pointer;
+        }
+
+        .task-active-btn-4 {
+            width: 83px;
+            height: 30px;
+            border-radius: 8px;
+            border: none;
+            background-color: #C418E61C;
+            font-size: 12px;
+            font-weight: 700;
+            color: #C418E6;
+            margin-top: 30px;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+    }
+}
+
+.tasks-title2 {
+    margin-left: 30px;
+    margin-top: 24px;
+    width: 855px;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #E6EDF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0A1629;
+    }
+}
+
+.tasks-backlog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+    .task-active-1,
+    .task-active-2,
+    .task-active-3 {
+        width: 855px;
+        height: 91px;
+        border-radius: 24px;
+        background-color: #FFFFFF;
+        box-shadow: 0 6px 58px 0 #C4CBD61A;
+        display: flex;
+
+        .taskName-addon {
+            margin-left: 30px;
+            margin-top: 22px;
+            width: 175px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 4px;
+                color: #0A1629;
+            }
+        }
+
+        .taskEstimate-addon {
+            margin-left: 65px;
+            margin-top: 22px;
+            width: 55px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 4px;
+                color: #0A1629;
+            }
+        }
+
+        .taskSpentTime-addon {
+            margin-left: 45px;
+            margin-top: 22px;
+            width: 80px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 4px;
+                color: #0A1629;
+            }
+        }
+
+        .taskAssignee-addon {
+            margin-left: 45px;
+            margin-top: 22px;
+            width: 60px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            img {
+                width: 24px;
+                height: 24px;
+                margin-top: 4px;
+                border-radius: 50%;
+            }
+        }
+
+        .taskPriority-addon {
+            width: 80px;
+            margin-left: 35px;
+            margin-top: 22px;
+
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #91929E;
+            }
+
+            h3 {
+                font-size: 14px;
+                font-weight: 700;
+                color: #FFBD21;
+                margin-top: 4px;
+            }
+        }
+    }
+}
