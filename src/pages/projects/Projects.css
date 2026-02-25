@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito Sans;
+}
+
+.project-addon {
+    display: flex;
+    justify-content: space-between;
+
+    .project-title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #0A1629;
+    }
+
+    .add-new-project {
+        width: 158px;
+        height: 48px;
+        border-radius: 14px;
+        border: none;
+        background-color: #3F8CFF;
+        box-shadow: 0 6px 12px 0 #3F8CFF43;
+        font-size: 16px;
+        font-weight: 700;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .add-new-project:hover {
+        border: 1px solid #3F8CFF;
+        color: #3F8CFF;
+        background-color: transparent;
+    }
+}
+
+.current-project {
+    width: 265px;
+    height: 1042px;
+    border-radius: 24px;
+    margin-top: 28px;
+    box-shadow: 0 6x 58px 0 #C4CBD61A;
+    background-color: white;
+
+    .current-project-title {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0A1629;
+        padding-top: 26px;
+        margin-left: 24px;
+    }
+
+    .current-project-div-1,
+    .current-project-div-2,
+    .current-project-div-3,
+    .current-project-div-4,
+    .current-project-div-5,
+    .current-project-div-6 {
+        width: 245px;
+        height: 100px;
+        border-radius: 14px;
+        margin-top: 10px;
+        margin-left: 8px;
+
+        .c-project-num {
+            font-size: 12px;
+            font-weight: 400;
+            color: #91929E;
+            margin-left: 16px;
+            padding-top: 14px;
+        }
+
+        .c-project-name {
+            font-size: 16px;
+            font-weight: 400;
+            color: #0A1629;
+            margin-left: 16px;
+            padding-top: 8px;
+        }
+
+        .c-project-more {
+            font-size: 16px;
+            font-weight: 600;
+            margin-left: 16px;
+            margin-top: 9px;
+            color: #3F8CFF;
+            cursor: pointer;
+            transition: all 0.3;
+        }
+
+        .c-project-more:hover {
+            color: #4971ad;
+        }
+    }
+
+    .current-project-div-1 {
+        background-color: #F4F9FD;
+
+        .c-project-name {
+            font-weight: 700;
+        }
+    }
+
+    .current-project-div-5 {
+        .c-project-name {
+            width: 170px !important;
+        }
+    }
+}
+
+.tasks-addon {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+
+    .tasks-title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #0A1629;
+    }
+
+    .tasks-addon-icons {
+        margin-left: 272px;
+        display: flex;
+        gap: 16px;
+
+        button {
+            width: 48px;
+            height: 48px;
+            border: none;
+            border-radius: 14px;
+            background-color: white;
+            box-shadow: 0 6px 58px 0 #C4CBD61A;
+            cursor: pointer;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        button:focus {
+            border: 1px solid #3F8CFF;
+        }
+    }
+}
+
+
+.filter-btn {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 0 6px 58px 0 #C4CBD61A;
+    cursor: pointer;
+    margin-left: 720px;
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
