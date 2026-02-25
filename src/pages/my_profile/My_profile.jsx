@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import '../../pages/my_profile/My_profile.css';
 import { userData, projectsData } from '../../data/ZUBAYIR/my_profile/My_profile.js';
 
@@ -99,14 +98,6 @@ const ProfilePage = ({ user, projects }) => {
   );
 };
 
-const MyProfileApp = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<ProfilePage user={userData} projects={projectsData} />} />
-      </Routes>
-    </Router>
-  );
-};
+const MyProfileApp = () => <ProfilePage user={userData} projects={projectsData} />;
 
 export default MyProfileApp;
